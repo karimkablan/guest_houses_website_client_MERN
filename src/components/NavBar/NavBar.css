@@ -1,0 +1,46 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 97vw;
+	
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+#navbar {
+	width: 100%;
+	display: flex;
+	background: #6f2205;
+	color: #fff;
+	height: 50px;
+}
+
+
+#navbar a {
+	color: #eacc97;
+}
+
+#navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#navbar ul li a {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a.current,
+#navbar ul li a:hover {
+	
+    border-radius: 20%;
+	color: #fff;
+}

@@ -1,0 +1,44 @@
+
+.div-home-flex-container{
+    display: flex;
+  }
+.div-home-flex-container-images{
+    display: flex;
+   margin-left: 400px;
+
+  }
+  
+  .div-home-flex-container > div {
+    color: rgb(71, 71, 71);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+body{
+  background-color: #eacc97;
+}
+
+
+
+  .span {
+      color:#a36c22;
+      font-weight: bold;
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .div-home-flex-container {
+      display: flex;
+      flex-direction: column;
+
+    } 
+
+  }
+
+  .msg{
+    color: rgb(235, 106, 0);
+    padding: 20px;
+    font-size: 20px;
+}

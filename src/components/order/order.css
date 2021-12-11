@@ -1,0 +1,52 @@
+.order{
+    text-align: center;
+    height: 100hv;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    color: #a36c22;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.order_div{
+ padding: 20px;
+}
+
+.order_div p{
+  color: #a36c22;
+  font-weight: 700;
+   }
+
+
+
+   input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.btnAdd2{
+
+ font-size: 15px;
+}
+
+.btnAdd2:hover{
+
+  cursor: pointer;
+}
+
+.btn{
+ font-size: 15px;
+ border: 4px rgb(68, 60, 60)d solid;
+}
+
+.btn:hover{
+  color: #d80000;
+  background:white;
+  cursor:no-drop;
+}
+
+
+
